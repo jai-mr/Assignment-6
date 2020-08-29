@@ -53,7 +53,7 @@ The model has been executed for 25 epochs for each of the following 5 scenarios 
 * L2 has no feature selection
 * L2 is not robust to outliers
 
-* From a practical standpoint, L1 tends to shrink coefficients to zero whereas L2 tends to shrink coefficients evenly. 
+From a practical standpoint, L1 tends to shrink coefficients to zero whereas L2 tends to shrink coefficients evenly. 
 * L1 is therefore useful for feature selection, as we can drop any variables associated with coefficients that go to zero. L2, on the other hand, is useful when you have collinear/codependent features
 
 

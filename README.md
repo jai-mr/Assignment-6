@@ -23,3 +23,11 @@ The model has been executed for 25 epochs for each of the following 5 scenarios 
 
 # The Mis-Classified Images
 [https://github.com/jai-mr/Assignment-6/blob/master/images/misclassification.png](https://github.com/jai-mr/Assignment-6/blob/master/images/misclassification.png)
+
+# Max Test Accuracy
+* WithL1_NoL2 with BN       :  99.42
+* NoL1_WithL2 with BN       :  99.41
+* WithL1_WithL2 with BN     :  99.53
+* NoL1_NoL2 with GhostBN    :  99.45
+* WithL1_WithL2 with GhostBN:  99.41
+* The overall max accuracy 99.53 is for WithL1_WithL2 with BN

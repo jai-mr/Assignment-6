@@ -58,4 +58,8 @@ The model has been executed for 25 epochs for each of the following 5 scenarios 
 
 
 References:
+
 [ https://explained.ai/regularization/L1vsL2.html#:~:text=From%20a%20practical%20standpoint%2C%20L1,you%20have%20collinear%2Fcodependent%20features]( https://explained.ai/regularization/L1vsL2.html#:~:text=From%20a%20practical%20standpoint%2C%20L1,you%20have%20collinear%2Fcodependent%20features)
+
+[https://explained.ai/regularization/L1vsL2.html](https://explained.ai/regularization/L1vsL2.html)
+

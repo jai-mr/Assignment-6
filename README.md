@@ -38,3 +38,24 @@ The model has been executed for 25 epochs for each of the following 5 scenarios 
 * NoL1_NoL2 with GhostBN    :  99.45
 * WithL1_WithL2 with GhostBN:  99.41
 * The overall max accuracy 99.53 is for WithL1_WithL2 with BN
+
+## L1 & L2 performance in the regularization of your model.
+## L1 Regularization(Lasso Regression)
+* L1 penalizes the sum of the absolute value of weights.
+* L1 has a sparse solution
+* L1 generates a model that is simple and interpretable but cannot learn complex patterns
+* L1 is robust to outliers
+
+## L2 Regularization(Ridge regularization):
+* L2 regularization penalizes the sum of square weights.
+* L2 has a non-sparse solution
+* L2 regularization is able to learn complex data patterns
+* L2 has no feature selection
+* L2 is not robust to outliers
+
+* From a practical standpoint, L1 tends to shrink coefficients to zero whereas L2 tends to shrink coefficients evenly. 
+* L1 is therefore useful for feature selection, as we can drop any variables associated with coefficients that go to zero. L2, on the other hand, is useful when you have collinear/codependent features
+
+
+References:
+[ https://explained.ai/regularization/L1vsL2.html#:~:text=From%20a%20practical%20standpoint%2C%20L1,you%20have%20collinear%2Fcodependent%20features]( https://explained.ai/regularization/L1vsL2.html#:~:text=From%20a%20practical%20standpoint%2C%20L1,you%20have%20collinear%2Fcodependent%20features)

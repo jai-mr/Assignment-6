@@ -21,8 +21,15 @@ The model has been executed for 25 epochs for each of the following 5 scenarios 
 # Loss Change Curves
 [https://github.com/jai-mr/Assignment-6/blob/master/images/validationloss.png](https://github.com/jai-mr/Assignment-6/blob/master/images/validationloss.png)
 
-# The Mis-Classified Images
-[https://github.com/jai-mr/Assignment-6/blob/master/images/misclassification.png](https://github.com/jai-mr/Assignment-6/blob/master/images/misclassification.png)
+# The Mis-Classified Images for "With GBN" model
+
+* NoL1_NoL2 with GhostBN
+
+[https://github.com/jai-mr/Assignment-6/blob/master/images/NoL1_NoL2withGhostBN.png](https://github.com/jai-mr/Assignment-6/blob/master/images/NoL1_NoL2withGhostBN.png)
+
+* WithL1_WithL2 with GhostBN
+
+[https://github.com/jai-mr/Assignment-6/blob/master/images/WithL1_WithL2withGhostBN.png](https://github.com/jai-mr/Assignment-6/blob/master/images/WithL1_WithL2withGhostBN.png)
 
 # Max Test Accuracy
 * WithL1_NoL2 with BN       :  99.42
